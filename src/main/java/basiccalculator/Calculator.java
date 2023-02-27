@@ -52,7 +52,7 @@ public class Calculator
     default:
     	break;
     }
-	System.out.println(result);
+    l.info(result);
     l.info("0.Close or  1.ReUse");
     choose=scan.nextInt();
     
