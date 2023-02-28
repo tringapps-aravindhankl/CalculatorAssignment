@@ -48,6 +48,7 @@ public class Calculator
     	Divison div=new Divison(result,num2);
     	div.perform();
     	result=div.result;
+         
     	
     default:
     	break;
