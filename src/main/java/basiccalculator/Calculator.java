@@ -53,7 +53,8 @@ public class Calculator
     default:
     	break;
     }
-    l.info(result);
+    String results=String.valueOf(result);
+    l.info(results);
     l.info("0.Close or  1.ReUse");
     choose=scan.nextInt();
     
